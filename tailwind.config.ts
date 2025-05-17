@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+        // Ghana flag colors
+        ghana: {
+          red: '#CE1126',
+          gold: '#FCD116',
+          green: '#006B3F',
+          black: '#000000',
+        }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
